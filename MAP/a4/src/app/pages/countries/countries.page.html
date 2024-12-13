@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>List of Countries</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="countries.length > 0">
+    <ion-item
+      *ngFor="let country of countries"
+      (click)="viewDetails(country.alpha3Code)"
+    >
+      <ion-thumbnail slot="start">
+        <img [src]="country.flag" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ country.name }}</h2>
+        <p>Country Code: {{ country.alpha3Code }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-spinner *ngIf="countries.length === 0"></ion-spinner>
+</ion-content>

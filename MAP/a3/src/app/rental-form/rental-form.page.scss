@@ -1,0 +1,32 @@
+.container {
+  padding: 16px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.error-container {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.error-container p {
+  font-weight: bold;
+}
+
+.error-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

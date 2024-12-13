@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\QINGx\\Desktop\\MAP\\a1\\UtilityBills-Heqing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13028CDF-4EA1-43E1-98BC-7FF27DFBE786}|UtilityBills-Heqing\\UtilityBills-Heqing.csproj|c:\\users\\qingx\\desktop\\map\\a1\\utilitybills-heqing\\utilitybills-heqing\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{13028CDF-4EA1-43E1-98BC-7FF27DFBE786}|UtilityBills-Heqing\\UtilityBills-Heqing.csproj|solutionrelative:utilitybills-heqing\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13028CDF-4EA1-43E1-98BC-7FF27DFBE786}|UtilityBills-Heqing\\UtilityBills-Heqing.csproj|c:\\users\\qingx\\desktop\\map\\a1\\utilitybills-heqing\\utilitybills-heqing\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13028CDF-4EA1-43E1-98BC-7FF27DFBE786}|UtilityBills-Heqing\\UtilityBills-Heqing.csproj|solutionrelative:utilitybills-heqing\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\QINGx\\Desktop\\MAP\\a1\\UtilityBills-Heqing\\UtilityBills-Heqing\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "UtilityBills-Heqing\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\QINGx\\Desktop\\MAP\\a1\\UtilityBills-Heqing\\UtilityBills-Heqing\\MainPage.xaml.cs",
+              "RelativeToolTip": "UtilityBills-Heqing\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:30:01.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\QINGx\\Desktop\\MAP\\a1\\UtilityBills-Heqing\\UtilityBills-Heqing\\MainPage.xaml",
+              "RelativeDocumentMoniker": "UtilityBills-Heqing\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\QINGx\\Desktop\\MAP\\a1\\UtilityBills-Heqing\\UtilityBills-Heqing\\MainPage.xaml",
+              "RelativeToolTip": "UtilityBills-Heqing\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-20T06:38:07.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

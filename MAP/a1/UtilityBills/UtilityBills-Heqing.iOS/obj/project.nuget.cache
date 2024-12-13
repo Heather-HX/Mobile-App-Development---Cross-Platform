@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sQ1Wcb4FFpE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\QINGx\\Desktop\\MAP\\a1\\UtilityBills-Heqing\\UtilityBills-Heqing.iOS\\UtilityBills-Heqing.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\QINGx\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\QINGx\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\QINGx\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

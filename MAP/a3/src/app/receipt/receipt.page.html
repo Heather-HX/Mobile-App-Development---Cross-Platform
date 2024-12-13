@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Your Receipt</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="receipt-container">
+    <h2>Reservation Confirmed!</h2>
+    <p><strong>Reservation Number:</strong> <span class="blue-text">RES-{{ reservationId }}</span></p>
+    <p><strong>Car Type:</strong> <span class="blue-text">{{ reservation.carType }}</span></p>
+    <p><strong>Length of Rental:</strong> <span class="blue-text">{{ reservation.hours }} hours</span></p>
+    <p><strong>Pickup Date:</strong> <span class="blue-text">{{ reservation.date }}</span></p>
+    <p><strong>Car Seat Required?:</strong> <span class="blue-text">{{ reservation.carSeat ? 'Yes' : 'No' }}</span></p>
+    <p><strong>Subtotal:</strong> <span class="blue-text">{{ subtotal | currency }}</span></p>
+    <p><strong>Tax:</strong> <span class="blue-text">{{ tax | currency }}</span></p>
+    <p><strong>Total:</strong> <span class="blue-text">{{ total | currency }}</span></p>
+  </div>
+</ion-content>

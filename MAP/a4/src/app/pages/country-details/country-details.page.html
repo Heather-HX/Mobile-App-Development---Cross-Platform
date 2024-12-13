@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Country Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="country">
+  <ion-card>
+    <img [src]="country.flag" />
+    <ion-card-header>
+      <ion-card-title>{{ country.name }}</ion-card-title>
+      <ion-card-subtitle
+        >Country Code: {{ country.alpha3Code }}</ion-card-subtitle
+      >
+    </ion-card-header>
+    <ion-card-content>
+      <p>Capital: {{ country.capital || 'N/A' }}</p>
+      <p>
+        The population of {{ country.name }} is {{ country.population | number
+        }}
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-button expand="block" color="primary" (click)="addToFavorites()">
+    <ion-icon slot="start" name="star-outline"></ion-icon>
+    Add to Favorites
+  </ion-button>
+</ion-content>

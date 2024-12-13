@@ -1,0 +1,16 @@
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\bin\Debug\netstandard2.0\Library-Heqing.deps.json
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\bin\Debug\netstandard2.0\Library-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\bin\Debug\netstandard2.0\ref\Library-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\bin\Debug\netstandard2.0\Library-Heqing.pdb
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.csproj.AssemblyReference.cache
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\BooksListPage.xaml.g.cs
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.AssemblyInfoInputs.cache
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.AssemblyInfo.cs
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.csproj.CoreCompileInputs.cache
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\refint\Library-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a2\Library-Heqing\Library-Heqing\obj\Debug\netstandard2.0\Library-Heqing.pdb

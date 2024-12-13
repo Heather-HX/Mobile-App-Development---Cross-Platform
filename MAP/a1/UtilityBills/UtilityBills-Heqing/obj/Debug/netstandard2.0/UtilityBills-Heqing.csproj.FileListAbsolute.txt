@@ -1,0 +1,15 @@
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\bin\Debug\netstandard2.0\UtilityBills-Heqing.deps.json
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\bin\Debug\netstandard2.0\UtilityBills-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\bin\Debug\netstandard2.0\ref\UtilityBills-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\bin\Debug\netstandard2.0\UtilityBills-Heqing.pdb
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.csproj.AssemblyReference.cache
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.AssemblyInfoInputs.cache
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.AssemblyInfo.cs
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.csproj.CoreCompileInputs.cache
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\refint\UtilityBills-Heqing.dll
+C:\Users\QINGx\Desktop\MAP\a1\UtilityBills-Heqing\UtilityBills-Heqing\obj\Debug\netstandard2.0\UtilityBills-Heqing.pdb

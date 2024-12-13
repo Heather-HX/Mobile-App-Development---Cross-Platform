@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Create Your Reservation</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <h2>Heqing's Car Rental Form</h2>
+
+    <!-- Error Messages Section -->
+    <div *ngIf="errorMessages.length > 0" class="error-container">
+      <p>Please fix these issues with your form:</p>
+      <ul>
+        <li *ngFor="let error of errorMessages">{{ error }}</li>
+      </ul>
+    </div>
+
+    <!-- Rental Form -->
+    <form #rentalForm="ngForm" (ngSubmit)="onReserve()" novalidate>
+      <!-- Car Type Dropdown -->
+      <ion-item>
+        <ion-label position="stacked">What type of car?</ion-label>
+        <ion-select [(ngModel)]="reservation.carType" name="carType" required>
+          <ion-select-option value="sedan">Sedan</ion-select-option>
+          <ion-select-option value="suv">SUV</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <!-- Reservation Date -->
+      <ion-item>
+        <ion-label position="stacked">Enter the reservation date</ion-label>
+        <ion-input
+          type="date"
+          [(ngModel)]="reservation.date"
+          name="date"
+          required
+        ></ion-input>
+      </ion-item>
+
+      <!-- Number of Hours -->
+      <ion-item>
+        <ion-label position="stacked">Enter the number of hours:</ion-label>
+        <ion-input
+          type="number"
+          min="1"
+          max="96"
+          [(ngModel)]="reservation.hours"
+          name="hours"
+          required
+        ></ion-input>
+      </ion-item>
+
+      <!-- Child's Car Seat Checkbox -->
+      <ion-item>
+        <ion-label position="stacked">Do you need a car seat?</ion-label>
+        <ion-checkbox
+          [(ngModel)]="reservation.carSeat"
+          name="carSeat"
+        ></ion-checkbox>
+      </ion-item>
+
+      <!-- Reserve and Reset Buttons -->
+      <div class="button-group">
+        <ion-button type="submit" color="primary">RESERVE</ion-button>
+        <ion-button type="button" color="light" (click)="onReset()"
+          >RESET</ion-button
+        >
+      </div>
+    </form>
+  </div>
+</ion-content>

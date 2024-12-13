@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UtilityBills_Heqing.MainPage">
+
+    <StackLayout Padding="10" VerticalOptions="CenterAndExpand" >
+        <Label Text="Utility Bill Calculator"
+           FontSize="Large"
+           HorizontalOptions="CenterAndExpand" />
+
+        <Label Text="Choose Your Province" />
+        <Picker x:Name="ProvincePicker" Title="Select your province...">
+            <Picker.Items>
+                <x:String>Quebec</x:String>
+                <x:String>Nova Scotia</x:String>
+                <x:String>Ontario</x:String>
+                <x:String>New Brunswick</x:String>
+                <x:String>Manitoba</x:String>
+                <x:String>British Columbia</x:String>
+                <x:String>Prince Edward Island</x:String>
+                <x:String>Saskatchewan</x:String>
+                <x:String>Alberta</x:String>
+                <x:String>Newfoundland and Labrador</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <Label Text="Daytime Usage (kWh)" />
+        <Entry x:Name="DayUsageEntry" Keyboard="Numeric" Placeholder="Enter the daytime usage" />
+
+        <Label Text="Evening Usage (kWh)" />
+        <Entry x:Name="EveningUsageEntry" Keyboard="Numeric" Placeholder="Enter the evening usage" />
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand" Spacing="10">
+            <Label Text="Did you use a renewable energy source?" VerticalOptions="Center" />
+            <Switch x:Name="RenewableSwitch" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button Text="CALCULATE" Clicked="OnCalculateClicked" BackgroundColor="#D1ECF1" TextColor="#007B7F" WidthRequest="120" />
+            <Button Text="RESET"  Clicked="OnResetClicked" BackgroundColor="#D1ECF1" TextColor="#007B7F" WidthRequest="120" />
+        </StackLayout>
+
+        <Label x:Name="BillResultLabel" Text="Your bill will appear here." IsVisible="False" />
+
+        <Label x:Name="lblErr" BackgroundColor="Pink" TextColor="DarkRed" 
+               FontSize="Large"
+               Margin="0, 40, 0, 0"
+               IsVisible="False" />
+
+        <Label x:Name="ChargeBreakdownLabel" Text="Charge Breakdown" FontSize="Large" HorizontalOptions="Center" IsVisible="False" />
+
+        <Label x:Name="DayUsageChargeLabel" FontSize="Medium" IsVisible="False" />
+        <Label x:Name="EveningUsageChargeLabel" FontSize="Medium" IsVisible="False" />
+        <Label x:Name="TotalUsageChargeLabel" FontSize="Medium" IsVisible="False" />
+        <Label x:Name="SalesTaxLabel" FontSize="Medium" IsVisible="False" />
+        <Label x:Name="RebateLabel" FontSize="Medium" IsVisible="False" />
+
+        <Label x:Name="TotalBillLabel"
+         FontSize="Large"
+         BackgroundColor="LightYellow"
+         TextColor="SaddleBrown"
+         Padding="70,10"
+         Margin="0, 40, 0, 0"
+         HorizontalOptions="Center"
+         IsVisible="False" />
+
+    </StackLayout>
+
+</ContentPage>
